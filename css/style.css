@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 1920px;
+  width: 100%;
+  background-image: linear-gradient(to top, #30cfd0 0%, rgb(52, 30, 115) 100%);
+}
+
+/*=== header ===*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  top: 0;
+  margin: 0 auto;
+}
+
+.header__nav {
+  max-width: 1280px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo-head {
+  font-weight: 500;
+  color: #9fcfec;
+  color: chartreuse;
+}
+
+.logo p:hover {
+  color: snow;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__nav {
+  letter-spacing: 2px;
+}
+
+.menu a {
+  font-weight: 700;
+  font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+  color: #fbff02;
+}
+
+.menu a:hover {
+  color: white;
+}
+
+.job {
+  color: chartreuse;
+}
+
+.job:hover {
+  color: white;
+}
+/*=== section-ocean ===*/
+.section__ocean {
+  width: 100%;
+  padding-top: 80px;
+}
+
+.container__ocean {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.ocean {
+  display: flex;
+  flex-direction: column;
+}
+
+.ocean__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background: #2d6e8f;
+}
+
+.ocean__title {
+  width: 30%;
+  height: 100%;
+}
+
+.title {
+  font-size: clamp(1.1rem, 0.82rem + 1.4vw, 2.5rem);
+  text-align: center;
+  color: aliceblue;
+}
+
+.ocean__photo {
+  width: 70%;
+  display: flex;
+}
+
+.photo {
+  width: 100%;
+}
+
+.ocean__offers {
+  width: 100%;
+  background: #2fbcc6;
+}
+
+.offers__title {
+  font-size: 1.6rem;
+  padding: 10px 0 0 0;
+  /* color: #1b1702; */
+  color: #fbff02;
+  text-align: center;
+}
+
+/*=== table ===*/
+table {
+  border-collapse: collapse;
+  padding: 0 20px;
+  margin: 16px auto 24px;
+  width: 80%;
+}
+
+th,
+td {
+  border: 1px solid #087179;
+  padding: 0.3em 1em;
+}
+
+td:last-child {
+  color: #1b1702;
+  text-align: right;
+}
+
+tr:nth-child(even) {
+  background: #9ce8ee;
+}
+
+th {
+  text-align: left;
+  background: #f7e26d;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.salary {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.footer__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer__copyright-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff;
+}
